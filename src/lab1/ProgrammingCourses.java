@@ -9,10 +9,16 @@ package lab1;
  * @author jrheingans1
  */
 public class ProgrammingCourses {
-    String courseName;
+    
+    
+    public static void main(String[] args) {
+    
+    }
+    
+    private String courseName;
     private String courseNumber;
     private double credits;
-    
+
     public String getCourseName() {
         return courseName;
     }
@@ -38,3 +44,4 @@ public class ProgrammingCourses {
     }
     
 }
+

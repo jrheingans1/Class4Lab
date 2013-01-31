@@ -11,7 +11,7 @@ public class IntroJavaCourse extends ProgrammingCourses{
     private String prerequisites;
 
     public IntroJavaCourse(String courseName, String courseNumber) {
-        this.courseName = courseName;
+        setCourseName(courseName);
         setCourseNumber(courseNumber);
     }
 
@@ -23,6 +23,7 @@ public class IntroJavaCourse extends ProgrammingCourses{
         this.prerequisites = prerequisites;
     }
 
+   
         public void setCredits(double credits) {
         if(credits < 0 || credits > 5.0) {
             System.out.println(

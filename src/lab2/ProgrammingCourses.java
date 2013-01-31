@@ -11,34 +11,34 @@ package lab2;
 public class ProgrammingCourses {
  
      public static void main(String[] args) {
-         
+     
      }
-    private String courseName;
-    private String courseNumber;
-    private double credits;
+        private String courseName;
+        private String courseNumber;
+        private double credits;
 
-    public String getCourseName() {
-        return courseName;
-    }
+        public String getCourseName() {
+            return courseName;
+        }
 
-    public void setCourseName(String courseName) {
-        this.courseName = courseName;
-    }
+        public void setCourseName(String courseName) {
+            this.courseName = courseName;
+        }
 
-    public String getCourseNumber() {
-        return courseNumber;
-    }
+        public String getCourseNumber() {
+            return courseNumber;
+        }
 
-    public void setCourseNumber(String courseNumber) {
-        this.courseNumber = courseNumber;
-    }
+        public void setCourseNumber(String courseNumber) {
+            this.courseNumber = courseNumber;
+        }
 
-    public double getCredits() {
-        return credits;
-    }
+        public double getCredits() {
+            return credits;
+        }
 
-    public void setCredits(double credits) {
-        this.credits = credits;
-    }
+        public void setCredits(double credits) {
+            this.credits = credits;
+        }
    
 }

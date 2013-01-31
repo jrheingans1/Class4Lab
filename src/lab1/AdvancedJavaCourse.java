@@ -36,6 +36,7 @@ public class AdvancedJavaCourse extends ProgrammingCourses {
     }
 
    
+    @Override
     public void setCredits(double credits) {
         if(credits < 0.5 || credits > 4.0) {
             JOptionPane.showMessageDialog(null,

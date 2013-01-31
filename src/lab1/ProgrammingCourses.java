@@ -11,7 +11,8 @@ package lab1;
 public class ProgrammingCourses {
     String courseName;
     private String courseNumber;
-
+    private double credits;
+    
     public String getCourseName() {
         return courseName;
     }
@@ -35,5 +36,5 @@ public class ProgrammingCourses {
     public void setCredits(double credits) {
         this.credits = credits;
     }
-    private double credits;
+    
 }
